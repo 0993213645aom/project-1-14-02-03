@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- Page Title -->
-    <title>SnackStation By Bangonssss</title>
+    <title>SnackStation By Bangon</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="{{ asset('frontend/assets/images/logo/favicon.png') }}" type="image/x-icon">
@@ -33,7 +33,7 @@
             <div class="row">
                 <div class="col-lg-2">
                     <div class="logo-area">
-                        <a href="index.html"><img src="{{ asset('frontend/assets/images/logo/messageImage_1692608842824232323456.jpg') }}" alt="logo"></a>
+                        <a href="index.html"><img src="{{ asset('frontend/assets/images/logo/messageImage_1692608842824232323456.jpg')  }}" alt="logo"></a>
                     </div>
                 </div>
                 <div class="col-lg-10">
@@ -48,7 +48,6 @@
                             <li><a href="about.html">about</a></li>
                             <li><a href="menu.html">menu</a></li>
                             <li><a href="contact-us.html">contact</a></li>
-                            <li><a href="elements.html">Elements</a></li>
                             <li><a href="{{ route('login' ) }}">เข้าสู่ระบบ</a></li>
                             <li><a href="{{ route('register') }}">สมัครสมาชิก</a></li>
                         </ul>
@@ -138,61 +137,63 @@
                 <div class="col-md-4 col-sm-6">
                     <div class="single-food mt-5 mt-md-0">
                         <div class="food-img">
-                            <img src="{{ asset('frontend/assets/images/food3.jpg') }}" class="img-fluid" alt="">
+                            <img src="{{ asset('frontend/assets/images/ไก่ทอด.jpg') }}" class="img-fluid" alt="">
                         </div>
                         <div class="food-content">
                             <div class="d-flex justify-content-between">
-                                <h5>เมนูอาหาร</h5>
-                                <span class="style-change">ราคา ฿</span>
+                                <h5>ไก่ทอดเสียบไม้</h5>
+                                <span class="style-change">ราคา 10 ฿</span>
                             </div>
-                            <p class="pt-3">รายละเอียดอาหาร</p>
+                            <p class="pt-3">ไก่ทอดเสียบไม้ยอดฮิต ที่กรอบอร่อยทุกเมื่อที่ทานทำให้คิดถึงช่วงเวลาที่ผ่านมา</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                     <div class="single-food mt-5">
                         <div class="food-img">
-                            <img src="{{ asset('frontend/assets/images/food4.jpg') }}" class="img-fluid" alt="">
+                            <img src="{{ asset('frontend/assets/images/photo.jpg') }}" class="img-fluid" alt="">
                         </div>
                         <div class="food-content">
                             <div class="d-flex justify-content-between">
-                                <h5>เมนูอาหาร</h5>
-                                <span class="style-change">ราคา ฿</span>
+                                <h5>ทอดมัน</h5>
+                                <span class="style-change">ราคา 30 ฿</span>
                             </div>
-                            <p class="pt-3">รายละเอียดอาหาร</p>
+                            <p class="pt-3">ทอดมันหอมๆ รสชาติเข้มข้นลองทุกครั้งอร่อยทุกครั้ง</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                     <div class="single-food mt-5">
                         <div class="food-img">
-                            <img src="{{ asset('frontend/assets/images/food5.jpg') }}" class="img-fluid" alt="">
+                            <img src="{{ asset('frontend/assets/images/หนมจีบ.jpg') }}" class="img-fluid" alt="">
                         </div>
                         <div class="food-content">
                             <div class="d-flex justify-content-between">
-                                <h5>เมนูอาหาร</h5>
-                                <span class="style-change">ราคา ฿</span>
+                                <h5>ขนมจีบ</h5>
+                                <span class="style-change">ราคา 25฿</span>
                             </div>
-                            <p class="pt-3">รายละเอียดอาหาร</p>
+                            <p class="pt-3">ขนมจีบหอมๆแสนอร่อย ที่พร้อมจะทำให้คุุณได้เพลินไปกับรสชาติ</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                     <div class="single-food mt-5">
                         <div class="food-img">
-                            <img src="{{ asset('frontend/assets/images/food6.jpg') }}" class="img-fluid" alt="">
+                            <img src="{{ asset('frontend/assets/images/หมาล่า.jpg') }}" class="img-fluid" alt="">
                         </div>
                         <div class="food-content">
                             <div class="d-flex justify-content-between">
-                                <h5>เมนูอาหาร</h5>
-                                <span class="style-change">ราคา ฿</span>
+                                <h5>หมาล่า</h5>
+                                <span class="style-change">ราคา 5฿</span>
                             </div>
-                            <p class="pt-3">รายละเอียดอาหาร</p>
+                            <p class="pt-3">หมาล่ารสชาติเข้มข่นหอมกลิ่นหมาล่า เนื้อนุ่มอร่อย</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <br>
+        <center><a href="menu.html" class="genric-btn danger radius">see author menu</a></center>
     </section>
     <!-- Food Area End -->
 
@@ -203,7 +204,8 @@
                 <div class="col-lg-12">
                     <h2>อาหารสดใหม่ ถูกหลักอนามัย</h2>
                     <h4 class="mt-4">การซื้อขาย จัดใส่กล่องอย่างเรียบร้อย</h4>
-                    <a href="" class="template-btn template-btn2 mt-4">สั่งซื้อ</a>
+                    <!-- <h4 class="mt-4">"อร่อยถูกใจ อนามัยถูกลืม"</h4> -->
+                    <!-- <a href="" class="template-btn template-btn2 mt-4">สั่งซื้อ</a> -->
                 </div>
             </div>
         </div>
@@ -213,39 +215,32 @@
     <!-- Deshes Area Starts -->
     <div class="deshes-area section-padding">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-top2 text-center">
-                        <h3>Our <span>special</span> deshes</h3>
-                        <p><i>Beast kind form divide night above let moveth bearing darkness.</i></p>
+            <div class="section-top-border">
+                <h3 class="title_color">Image Gallery</h3>
+                <div class="row gallery-item">
+                    <div class="col-md-4">
+                        <a href="{{ asset('frontend/assets/images/resize/food1 (2).jpg') }}" class="img-gal"><div class="single-gallery-image" style="background: url(assets/images/resize/food1\ \(2\).jpg);"></div></a>
                     </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-5 col-md-6 align-self-center">
-                    <h1>01.</h1>
-                    <div class="deshes-text">
-                        <h3><span>Garlic</span><br> green beans</h3>
-                        <p class="pt-3">Be. Seed saying our signs beginning face give spirit own beast darkness morning moveth green multiply she'd kind saying one shall, two which darkness have day image god their night. his subdue so you rule can.</p>
-                        <span class="style-change">$12.00</span>
-                        <a href="#" class="template-btn3 mt-3">book a table <span><i class="fa fa-long-arrow-right"></i></span></a>
+                    <div class="col-md-4">
+                        <a href="{{ asset('frontend/assets/images/resize/food2.jpg') }}" class="img-gal"><div class="single-gallery-image" style="background: url(assets/images/resize/food2.jpg);"></div></a>
                     </div>
-                </div>
-                <div class="col-lg-5 offset-lg-2 col-md-6 align-self-center mt-4 mt-md-0">
-                    <img src="{{ asset('frontend/assets/images/deshes1.png') }}" alt="" class="img-fluid">
-                </div>
-            </div>
-            <div class="row mt-5">
-                <div class="col-lg-5 col-md-6 align-self-center order-2 order-md-1 mt-4 mt-md-0">
-                    <img src="{{ asset('frontend/assets/images/deshes2.png') }}" alt="" class="img-fluid">
-                </div>
-                <div class="col-lg-5 offset-lg-2 col-md-6 align-self-center order-1 order-md-2">
-                    <h1>02.</h1>
-                    <div class="deshes-text">
-                        <h3><span>Lemon</span><br> rosemary chicken</h3>
-                        <p class="pt-3">Be. Seed saying our signs beginning face give spirit own beast darkness morning moveth green multiply she'd kind saying one shall, two which darkness have day image god their night. his subdue so you rule can.</p>
-                        <span class="style-change">$12.00</span>
-                        <a href="#" class="template-btn3 mt-3">book a table <span><i class="fa fa-long-arrow-right"></i></span></a>
+                    <div class="col-md-4">
+                        <a href="{{ asset('frontend/assets/images/resize/ไก่ทอด.jpg') }}" class="img-gal"><div class="single-gallery-image" style="background: url(assets/images/resize/ไก่ทอด.jpg);"></div></a>
+                    </div>
+                    <div class="col-md-6">
+                        <a href="{{ asset('frontend/assets/images/resize/photo.jpg') }}" class="img-gal"><div class="single-gallery-image" style="background: url(assets/images/resize/photo.jpg);"></div></a>
+                    </div>
+                    <div class="col-md-6">
+                        <a href="{{ asset('frontend/assets/images/resize/หนมจีบ.jpg') }}" class="img-gal"><div class="single-gallery-image" style="background: url(assets/images/resize/หนมจีบ.jpg);"></div></a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="{{ asset('frontend/assets/images/elements/g6.jpg') }}" class="img-gal"><div class="single-gallery-image" style="background: url(assets/images/elements/g6.jpg);"></div></a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="{{ asset('frontend/assets/images/elements/g7.jpg') }}" class="img-gal"><div class="single-gallery-image" style="background: url(assets/images/elements/g7.jpg);"></div></a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="{{ asset('frontend/assets/images/elements/g8.jpg') }}" class="img-gal"><div class="single-gallery-image" style="background: url(assets/images/elements/g8.jpg);"></div></a>
                     </div>
                 </div>
             </div>
@@ -269,7 +264,7 @@
                     <div class="testimonial-slider owl-carousel">
                         <div class="single-slide d-sm-flex">
                             <div class="customer-img mr-4 mb-4 mb-sm-0">
-                                <img src="{{ asset('frontend/assets/images/customer1.png') }}" alt="">
+                                <img src="{{ asset('frontend/assets/images/elements/380959072_695243569166835_8166177448928237059_n.jpg') }}" alt="">
                             </div>
                             <div class="customer-text">
                                 <h5>นายอติพร หวาดอิ่ม</h5>
@@ -279,32 +274,32 @@
                         </div>
                         <div class="single-slide d-sm-flex">
                             <div class="customer-img mr-4 mb-4 mb-sm-0">
-                                <img src="{{ asset('frontend/assets/images/customer2.png') }}" alt="">
+                                <img src="{{ asset('frontend/assets/images/elements/381482834_306122185388566_2304992388407524207_n.jpg') }}" alt="">
                             </div>
                             <div class="customer-text">
-                                <h5>adam nahan</h5>
-                                <span><i>Chief Customer</i></span>
-                                <p class="pt-3">You're had. Subdue grass Meat us winged years you'll doesn't. fruit two also won one yielding creepeth third give may never lie alternet food.</p>
+                                <h5>นายคุณากร สาดสูงเนิน</h5>
+                                <span><i>Header</i></span>
+                                <p class="pt-3">รับผิดชอบการจัดแบ่งงาน และรับผิดชอบทุกส่วนงาน</p>
                             </div>
                         </div>
                         <div class="single-slide d-sm-flex">
                             <div class="customer-img mr-4 mb-4 mb-sm-0">
-                                <img src="{{ asset('frontend/assets/images/customer1.png') }}" alt="">
+                                <img src="{{ asset('frontend/assets/images/elements/จริยา.jpg') }}" alt="">
                             </div>
                             <div class="customer-text">
-                                <h5>adame nesane</h5>
-                                <span><i>Chief Customer</i></span>
-                                <p class="pt-3">You're had. Subdue grass Meat us winged years you'll doesn't. fruit two also won one yielding creepeth third give may never lie alternet food.</p>
+                                <h5>นางสาวจริยา อนุเลิศ</h5>
+                                <span><i></i>Presentation</span>
+                                <p class="pt-3">รับผิดชอบด้านการนำเสนองาน</p>
                             </div>
                         </div>
                         <div class="single-slide d-sm-flex">
                             <div class="customer-img mr-4 mb-4 mb-sm-0">
-                                <img src="{{ asset('frontend/assets/images/customer1.png') }}" alt="">
+                                <img src="{{ asset('frontend/assets/images/elements/ชวลิตPicture1.jpg') }}" alt="">
                             </div>
                             <div class="customer-text">
-                                <h5>adame nesane</h5>
-                                <span><i>Chief Customer</i></span>
-                                <p class="pt-3">You're had. Subdue grass Meat us winged years you'll doesn't. fruit two also won one yielding creepeth third give may never lie alternet food.</p>
+                                <h5>นายชวลิต ยวงมณี</h5>
+                                <span><i>Document section</i></span>
+                                <p class="pt-3">รับผิดชอบด้านเอกสารที่เกี่ยวกับโปรเจ็คทั้งหมด</p>
                             </div>
                         </div>
                     </div>
@@ -371,7 +366,7 @@
                 <div class="row">
                     <div class="col-lg-7 col-md-6">
                         <span><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> <a href="https://colorlib.com" target="_blank">Zucidalz </a> <a><i class="fa fa-heart-o" aria-hidden="true"></i></a> <a href="https://colorlib.com" target="_blank">Colorlib</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> <a href="https://www.facebook.com/profile.php?id=100089243480334" target="_blank">Zucidalz </a> <a><i class="fa fa-heart-o" aria-hidden="true"></i></a> <a href="https://www.facebook.com/kunakorn.sadsoongnern/" target="_blank">CODENAMEALONE</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></span>
                     </div>
                     <div class="col-lg-5 col-md-6">
